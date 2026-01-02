@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geethika Jayasekara</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/Logo/logo1.PNG" alt="my logo" class="logo">
+
+                <ul class="nav-links" id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="./images/Logo/close.svg" alt="close icon" class="close-icon" onclick="closeMenu()">
+                </ul>
+                <img src="./images/Logo/menu.svg" alt="menu icon" class="menu-icon" onclick="openMenu()" >
+            </nav>
+            <div class="header-text">
+                <p class="titles">Software Engineering Undergraduate</p>
+                <p class="titles">Electrical and Electronic Engineer</p>
+                <h1>Welcome! I'm <span>Geethika</span><br> from Sri Lanka</h1>
+                
+            </div>
+        </div><!--div class "container" end-->
+
+    </div><!--div ID "header" end-->
+
+<!-------------------------About section Start----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/My-img/my-portrait5.png" alt="my image" id="about-image" >
+                </div>
+                <div class="about-col-2">
+
+                    <h1 class="subtitle">About Me</h1>
+
+                    <p id="about-text">Hi, I'm Geethika Jayasekara. I bridge the gap between hardware and software. With a B.Sc. in Electrical Engineering and 5+ years of leadership experience, I specialize in troubleshooting, testing, and embedded systems (FPGA, SystemVerilog). Now based in Finland, I am upskilling in Software Engineering to deliver robust solutions in industrial automation and R&D. Let's build reliable systems together.</p>
+
+                    <!--adding tabs to the  about section-->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" id="tab-experience" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" id="tab-education" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developmet<br></span>HTML, CSS and JavaScript</li>
+                            <li><span>Software Developmet<br></span>Java, Pytho, C, MATLAB</li>
+                            <li><span>Mobile App Developmet<br></span>Android and IOS</li>
+                            <li><span>Electrical Engineering<br></span>Power Electronics, Electrical Installation And Automations</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020-2025<br></span>Electrical Engineer </li>
+                            <li><span>2017<br></span>Electrical Engineerin Intern at Lanka Electricity Company</li>
+                            <li><span>2017t<br></span>Electrical Engineering Intern at Greater Kururnegala Water Supply And Sewerage Project</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025<br></span>Software Engineering (Reading)</li>
+                            <li><span>2024<br></span>Certificate in Digital System Design</li>
+                            <li><span>2024<br></span>SystemVerilog for ASICS FPGA Design</li>
+                            <li><span>2020<br></span>BSc in Electrical and Electronic Engineering</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div><!--div class "container" end-->
+    </div><!--div ID "about" end-->
+    <!-------------------------END of About section Start--------------------------->
+
+<!---------------------------------------Services------------------------->
+    <div id="services">
+        <div class="container">
+
+            <h1 class="subtitle">My Services</h1>
+
+            <div class="services-list">
+                <div class="service-content">
+                    <img src="./images/Logo/code-solid-full.svg" alt="code logo" class="service-logo" >
+                    <h2 class="service-title">Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa, quod dolor nam saepe voluptatibus molestias impedit repudiandae eum itaque?</p>
+                    <a href="#">Learn More...</a>
+                
+                </div>
+
+                <div class="service-content">
+                    <img src="./images/Logo/app.svg" alt="app dev logo" class="service-logo">
+                    <h2 class="service-title">Mobile App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa, quod dolor nam saepe voluptatibus molestias impedit repudiandae eum itaque?</p>
+                    <a href="#">Learn More...</a>
+                </div>
+
+                <div class="service-content">
+                    <img src="./images/Logo/file.svg" alt="soft dev logo"class="service-logo">
+                    <h2 class="service-title">Software Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa, quod dolor nam saepe voluptatibus molestias impedit repudiandae eum itaque?</p>
+                    <a href="#">Learn More...</a>
+                </div>
+            </div>
+        </div><!--end of the div class "container" -->
+    </div><!--end of the div ID "services" -->
+
+<!---------------------------------END Services---------------------------->
+
+<!---------------------------------Portfolio------------------------------->
+
+<div id="portfolio">
+
+    <div class="container">
+        
+        <h1 class="subtitle">Portfolio</h1>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/web-design.jpg" alt="web dev image">
+
+                <div class="layer">
+                    <h3>Web Site Designs</h3>
+                
+                    <p>You can see most interesting projects I have done so far...</p>
+                    <a href="#"><img src="./images/Logo/link-pink.svg" ></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./images/mobile-app.jpg" alt="mobile app dev">
+
+                 <div class="layer">
+                    <h3>Mobile Apps</h3>
+                
+                    <p>You can see all the mobile Apps I Have developed...</p>
+                    <a href="#"><img src="./images/Logo/link-pink.svg" ></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./images/software-projects.jpg" alt="software dev">
+                <div class="layer">
+                    <h3>Software Development Projects</h3>
+                
+                    <p>You can see all the software project I  have contributed...</p>
+                    <a href="#"><img src="./images/Logo/link-pink.svg" ></a>
+                </div>
+            </div>
+
+        </div><!--END of div class "work-list"-->
+
+        <!--Add a button as "see more"-->
+        <a href="#" class="btn">See more</a>
+
+    </div><!--END of div class "container"-->
+
+</div><!--End of div ID "portfolio"-->
+
+<!-----------------------------END of Portfolio----------------------->
+
+<!-----------------------------Contact------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="left-column">
+                <h1 class="subtitle">Contact Info</h1>
+                
+                <p><img src="./images/Logo/email-icon.svg" alt="contact">Geethika.j19@gmail.com</p>
+                
+                <p><img src="./images/Logo/phone.svg" alt="phone">+358 465221052</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/geethika.jayasekara.01/"><img src="./images/Logo/facebook.svg" alt="Facebook"></a>
+
+                    <a href="www.linkedin.com/in/geethikajayasekara-871107124"><img src="./images/Logo/linkedin.svg" alt="LinkedIn"></a>
+
+                    <a href="https://github.com/Geejay19" alt="gitHub"><img src="./images/Logo/git.svg"></a>
+
+                    <a href="www.reddit.com"><img src="./images/Logo/reddit.svg" alt="reddit"></a>
+                </div><!--End of the div class "social-icon"-->
+
+                <a href="./images/Downloadable/Geethika-Jayasekara-Resume.pdf" download class="btn btn-resume">Download Resume</a>
+            </div>
+            <div class="right-column">
+                <form>
+                    
+                    <label>Name:<input type="text" name="Name" placeholder="Your Name" autocomplete="given-name" required></label>
+
+                    <label>Email:<input type=email name="Email" autocomplete="email" palceholder="Your email" required></label>
+
+                    <label>Message:<textarea type="Message" rows="6" name="Message" placeholder="Type your message here.." required></textarea></label>
+
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+                
+            </div>
+        </div><!--End of the div class "row"-->
+    </div> <!--End of div class "container"--> 
+    
+    <!-----------Adding the copyright section----------------->
+        <div class="copyright">
+            <label>Copyright © Geethika Jayasekara</label>
+        </div>
+
+    <!-----------END of the copyright section----------------->
+        
+        
+    
+
+</div><!--End of div ID "contact"-->
+
+<!-----------------------------End of contact----------------------->
+
+
+
+    <script src="./script.js" ></script>
+    
+</body>
+</html>
