@@ -81,15 +81,16 @@ You can include screenshots such as:
 
 ## 🚀 How to View the Website
 
-### **Option 1 — Local View**
+
+### **Option 1 — GitHub Pages (Recommended)**
+Click the link: https://geejay19.github.io/sample-portfolio-website/
+
+### **Option 2 — Local View**
 1. Clone the repository  
    ```
    git clone https://github.com/Geejay19/sample-portfolio-website.git
    ```
 2. Open `index.html` in any browser.
-
-### **Option 2 — GitHub Pages (Recommended)**
-If you want, I can help you publish this website live using GitHub Pages.
 
 ---
 
