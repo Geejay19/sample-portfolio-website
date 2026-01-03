@@ -1,10 +1,7 @@
 ---
 
 # 🌐 Responsive Personal Portfolio Website  
-![Status](https://img.shields.io/badge/Status-Completed-2ecc71?style=for-the-badge)  
-![Tech](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JavaScript-blue?style=for-the-badge)  
-![Design](https://img.shields.io/badge/Design-Responsive%20UI-orange?style=for-the-badge)  
-![Category](https://img.shields.io/badge/Category-Web%20Development-6f42c1?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-2ecc71?style=for-the-badge)  ![Tech](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JavaScript-blue?style=for-the-badge)  ![Design](https://img.shields.io/badge/Design-Responsive%20UI-orange?style=for-the-badge)  ![Category](https://img.shields.io/badge/Category-Web%20Development-6f42c1?style=for-the-badge)
 
 
 [![Live Demo](https://img.shields.io/badge/Live%20Portfolio-Click%20Here-fecaab?style=for-the-badge)](https://geejay19.github.io/sample-portfolio-website/)
